@@ -3,11 +3,11 @@
   
 }
 html{
-	/* height:100%; */
+	height:100%;
 }
 
 body{
-	/*height:100%; */
+	height:100%; 
 	color:#777777;
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
@@ -19,29 +19,31 @@ body{
 	
 }
 
-.push{
-	height: 80px;
-}
 
 .navbar{
 	background:#ffffff;
 	color:#777777;
 	height:90px;
-	
-	border:0px 0px 2px 0px;
+	border-bottom:2px;
 	border-style:hidden hidden solid hidden;
 	border-color:#dddddd;
 	margin: 0px;
+	overflow:auto;
+
 	
 
 }
 
 .navlinkbox{
 	height:80px;
-	width:220px;
+	width:280px;
 	float: left;
 	padding:30px 0px 0px 0px;
 	text-align: right;
+	position:absolute;
+	margin: 0px 0px 0px 834px;
+	
+
 }
 
 aside{
@@ -59,7 +61,7 @@ aside{
 	width:100%;
 	overflow:auto;
 	clear:both;
-	/*min-height:100%;*/
+	min-height:100%;
 	
 	/*height:100%;*/
 	margin-bottom:-80px;
@@ -88,7 +90,7 @@ aside{
 	border-style: solid;
 	padding:0px 25px 25px 25px;
 	float:left;
-	margin: 40px 40px 40px 0px;
+	margin: 40px 0px 40px 0px;
 	text-align: center;
 	/*position:fixed;*/
 }
@@ -106,7 +108,7 @@ footer{
 	border-style: solid hidden hidden hidden;
 	clear:both;
 	padding:23px 0px 0px 0px;
-	/*position: absolute;
+	/*position: fixed;
 	z-index: 9000;*/
 
 }
@@ -174,6 +176,9 @@ img {
 	text-align: center;
 	color: #ffffff;
 	background:#4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding-top:7px;
+	
 	
 
 }
@@ -217,4 +222,19 @@ textarea{
 	width:100%;
 	height:200px;
 
+}
+
+.contentwrapper{
+	width:1150px;
+	margin:0;
+	padding:0;
+	border:0;
+	height:100%;
+
+
+}
+
+a{
+	text-decoration: none;
+	color:#777777;
 }
